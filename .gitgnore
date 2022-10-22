@@ -1,0 +1,42 @@
+#git忽略文件
+#git config --global core.excludesfile ~/.gitignore_global
+# Created by .ignore support plugin (hsz.mobi)
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+hs_err_pid*
+
+# other more
+.idea/
+target/
+*.iml
+
+
+
+#echo "# My_java_study_work" >> README.md
+#git init
+#git add README.md
+#git commit -m "first commit"
+#git branch -M main
+#git remote add origin https://github.com/VCCICCV/My_java_study_work.git
+#git push -u origin main
