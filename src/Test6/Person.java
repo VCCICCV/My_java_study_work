@@ -1,4 +1,4 @@
-package Test7;
+package Test6;
 
 /**
  * @project_name Work_2

@@ -1,6 +1,4 @@
-package Test7;
-
-import javax.swing.*;
+package Test6;
 
 /**
  * @project_name Work_2
