@@ -8,6 +8,7 @@ package Test7;
 // 测试类
 public class Test7_2 {
     public static void main(String[] args) {
+        Shape A;
         square sq = new square();
         circle ci = new circle();
         sq.area(5.2);

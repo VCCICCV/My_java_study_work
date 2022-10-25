@@ -7,9 +7,8 @@ package Test7.Supplement;
  */
 public class LightRainState implements WeatherState {
     //【代码3】 //重写public void showState()方法
-
     @Override
     public void showState() {
-
+        System.out.println("小雨~");
     }
 }

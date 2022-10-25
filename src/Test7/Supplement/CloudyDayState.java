@@ -10,7 +10,7 @@ public class CloudyDayState implements WeatherState {
 
     @Override
     public void showState() {
-
+        System.out.println("多云~");
     }
 }
 

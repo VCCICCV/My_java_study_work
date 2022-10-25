@@ -7,15 +7,15 @@ package Test7;
  */
 public class Test7_4 {
     public static void main(String[] args) {
+        Eater E;
         Dog dog = new Dog();
         Cat cat = new Cat();
-        Eater dog2 = dog;
-        Eater cat2 = cat;
         dog.eat();
+        E = new Dog();
         cat.eat();
-        dog2.eat();
-        cat2.eat();
-
+        E.eat();
+        E = new Cat();
+        E.eat();
     }
 }
 class Dog implements Eater{

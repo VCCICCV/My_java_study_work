@@ -7,10 +7,9 @@ package Test7.Supplement;
  */
 public class HeavyRainState implements WeatherState{
     //【代码2】 //重写public void showState()
-
     @Override
     public void showState() {
-
+        System.out.println("暴雨!");
     }
 }
 
